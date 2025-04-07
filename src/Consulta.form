@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[568, 658]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[454, 350]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbNombreCompletoCliente" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtTelefonoCliente" min="-2" pref="163" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="txtNombreCliente" min="-2" pref="119" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtApellidoPcliente" min="-2" pref="119" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtApellidoMcliente" min="-2" pref="119" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtDomicilio" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="btnSalir" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lbTelefonoCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lbDomicilio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lbNombreCompletoVeterinario" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                                  <Component id="txtNombreVeterinario" min="-2" pref="119" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtApellidoPveterinario" min="-2" pref="119" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtApellidoMveterinario" min="-2" pref="119" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbSaldo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbClaveEmp" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbTelefonoVet" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtTelefonoVeterinario" alignment="0" min="-2" pref="163" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="txtSaldo" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtClaveEmp" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbFecha" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbHora" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbDuracion" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbCostoBase" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtCostoBase" min="-2" pref="71" max="-2" attributes="0"/>
+                                          <Component id="txtDuracion" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="txtDia" min="-2" pref="71" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lbSlash1" min="-2" pref="9" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtMes" min="-2" pref="71" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lbSlash2" min="-2" pref="9" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lbCita" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtAnio" min="-2" pref="71" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                              <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="txtHora" min="-2" pref="71" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="lbDosPuntos" min="-2" pref="9" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtMinutos" min="-2" pref="71" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+                      <Component id="lbNombreCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="lbApellidoPcliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="lbApellidoMcliente" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbTitulo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbVeterinario" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbNombreVet" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="lbApellidoPvet" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="lbApellidoMvet" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lbTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbCliente" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbNombreCompletoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtApellidoPcliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtApellidoMcliente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbApellidoPcliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbApellidoMcliente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbDomicilio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDomicilio" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="lbVeterinario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbNombreCompletoVeterinario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNombreVeterinario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtApellidoPveterinario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtApellidoMveterinario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbApellidoPvet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbApellidoMvet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbNombreVet" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbTelefonoVet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTelefonoVeterinario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbClaveEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtClaveEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtSaldo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbSaldo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lbCita" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbFecha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbSlash1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbSlash2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAnio" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbHora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbDosPuntos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMinutos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbDuracion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDuracion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbCostoBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCostoBase" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnSalir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Datos de consulta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNombreCompletoCliente">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nombre completo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreCliente">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreClienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellidoPcliente">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbApellidoPcliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido paterno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbApellidoMcliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido materno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellidoMcliente">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCliente">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbTelefonoCliente">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="N&#xfa;m. de telefono:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelefonoCliente">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbDomicilio">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Domicilio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDomicilio">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbVeterinario">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Veterinario atendiendo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNombreCliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreVeterinario">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreVeterinarioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellidoPveterinario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbApellidoPvet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido paterno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbApellidoMvet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido materno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellidoMveterinario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNombreVet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbTelefonoVet">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="N&#xfa;m. de telefono:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelefonoVeterinario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbClaveEmp">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Clave de empleado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNombreCompletoVeterinario">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nombre completo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtClaveEmp">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbSaldo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Saldo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSaldo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCita">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cita:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbFecha">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fecha(dd/mm/aaaa):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbSlash1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMes">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbSlash2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAnio">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbHora">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hora de cita:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHora">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbDosPuntos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMinutos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbDuracion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Duraci&#xf3;n(horas):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDuracion">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCostoBase">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Costo base:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCostoBase">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCostoBaseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSalir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnSalirMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
